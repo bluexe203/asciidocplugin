@@ -1,0 +1,4 @@
+Thumbs.db
+*.lock
+node_modules/
+out/
