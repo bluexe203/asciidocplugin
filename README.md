@@ -7,11 +7,12 @@ VSCode用のAsciidocプレビュー用のプラグインです。
 以下のバージョンのライブラリを利用しています。
 
 [asciidoctor.js : 2.2.5](https://github.com/asciidoctor/asciidoctor.js/)
+
 [mermaid : 7.0.10](https://github.com/mermaid-js/mermaid)
 
 # 使い方
 
-asciidocplugin-0.0.1.vsixをインストールしてください。
+[asciidocplugin-0.0.1.vsix](https://github.com/bluexe203/asciidocplugin/releases/download/ver0.0.1/asciidocplugin-0.0.1.vsix)をインストールしてください。
 
 asciidocのファイル(*.adoc)を開いて右上のPreview AsciiDocを押下するとプレビューが表示されます。
 
