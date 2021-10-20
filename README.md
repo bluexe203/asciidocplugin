@@ -22,7 +22,7 @@ asciidocのファイル(*.adoc)を開いて右上のPreview AsciiDocを押下す
 
 # mermaidの構文
 
-以下の用に記載します。(korokiのmermaid用の構文と同じですが....のブロックでしか判別をしていません)
+以下の用に記載します。(korokiのmermaid用の構文と同じです。ブロックは"...."or"----")
 
 ```
 [mermaid]

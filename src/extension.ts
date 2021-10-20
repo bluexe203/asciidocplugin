@@ -106,7 +106,7 @@ function ConvertMermaid(str: string): string {
 		if (line.indexOf("[mermaid]") === 0) {
 			state++;
 		}
-		else if (line.indexOf("....") === 0) {
+		else if (line.indexOf("....") === 0 || line.indexOf("----") === 0) {
 			switch (state) {
 				case 1:
 					ret += "\r\n++++";
