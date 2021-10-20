@@ -17,6 +17,8 @@ asciidocのファイル(*.adoc)を開いて右上のPreview AsciiDocを押下す
 
 プレビュー画面はadocの変更の度に再レンダリングされます。
 
+![](https://user-images.githubusercontent.com/87966746/138047517-e4614222-46b2-441d-9013-12af3fdbdc3f.png)
+
 # mermaidの構文
 
 以下の用に記載します。(korokiのmermaid用の構文と同じですが....のブロックでしか判別をしていません)
