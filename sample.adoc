@@ -1,0 +1,32 @@
+:toc: top
+:sectnums:
+:toc-title: 目次
+:chapter-label:
+
+== シーケンスダイアグラムのサンプル
+
+[mermaid]
+....
+sequenceDiagram
+	クライアント-->>サーバ:要求;
+    サーバ-->>クライアント:応答;
+....
+
+== テーブルのテスト
+[options="header"]
+,===
+1,2,3
+テスト11,テスト12,テスト13
+テスト21,テスト22,テスト23
+テスト31,テスト32,テスト33
+,===
+
+== クラスダイアグラムのサンプル
+
+[mermaid]
+....
+classDiagram
+BaseClass |>-- Server
+BaseClass |>-- Client
+BaseClass |>-- Util
+....
