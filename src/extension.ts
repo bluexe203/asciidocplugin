@@ -65,7 +65,6 @@ function CreatePreviewHtml(context: vscode.ExtensionContext, webViewPanel: vscod
 	const content = editor?.document.getText().toString();
 
 	if (content !== null && content !== undefined && webViewPanel !== null) {
-		//webViewPanel.webview.html = "" + fs.readFileSync("z:\\test.html");
 		const html = ConvertLink(asciidoctor.convert(ConvertMermaid(content)));
 		webViewPanel.webview.html = `\
 <!DOCTYPE html>\
@@ -86,7 +85,6 @@ ${html}\
 // 日本語のhrefとIDをエスケープする(VSCodeのWebViewPanelは<a>でリンク先が日本語のIDにジャンプ出来ない？)
 function ConvertLink(str: string): string {
 	str = str.replace(/href\="\#_(.*)?"/g,function(match, args){
-		console.log(args);
 		return `href="#_${escape(args)}"`;
 	});
 	str = str.replace(/id\="_(.*)?"/g,function(match, args){
