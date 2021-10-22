@@ -65,18 +65,18 @@ function CreatePreviewHtml(context: vscode.ExtensionContext, webViewPanel: vscod
 
 	if (content !== null && content !== undefined && webViewPanel !== null) {
 		const html = ConvertLink(asciidoctor.convert(ConvertMermaid(content)));
-		webViewPanel.webview.html = `\
-<!DOCTYPE html>\
-<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">\
-<script>\
-${js}\
-</script>\
-<style>\
-${css}\
-</style>\
-<body>\
-${html}\
-</body>\
+		webViewPanel.webview.html = `
+<!DOCTYPE html>
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+${js}
+</script>
+<style>
+${css}
+</style>
+<body>
+${html}
+</body>
 </html>`;
 	}
 }
