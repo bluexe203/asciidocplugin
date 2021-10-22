@@ -12,7 +12,7 @@ VSCode用のAsciidocプレビュー用のプラグインです。
 
 # 使い方
 
-[asciidocplugin-0.0.1.vsix](https://github.com/bluexe203/asciidocplugin/releases/download/ver0.0.2/asciidocplugin-0.0.2.vsix)をインストールしてください。
+[asciidocplugin-0.0.2.vsix](https://github.com/bluexe203/asciidocplugin/releases/download/ver0.0.2/asciidocplugin-0.0.2.vsix)をインストールしてください。
 
 asciidocのファイル(*.adoc)を開いて右上のPreview AsciiDocを押下するとプレビューが表示されます。
 
