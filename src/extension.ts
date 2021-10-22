@@ -15,8 +15,7 @@ export function activate(context: vscode.ExtensionContext) {
 	// This line of code will only be executed once when your extension is activated
 	//console.log('Congratulations, your extension "asciidocplugin" is now active!');
 	const js = "" + fs.readFileSync(path.join(context.extensionPath, 'mermaid.min.js'));
-	const css = "" + fs.readFileSync(path.join(context.extensionPath, 'mermaid.min.css'))
-		+ fs.readFileSync(path.join(context.extensionPath, 'asciidoctor.css'));
+	const css = "" + fs.readFileSync(path.join(context.extensionPath, 'asciidoctor.css'));
 	let webViewPanel: vscode.WebviewPanel | null = null;
 
 	// The command has been defined in the package.json file
